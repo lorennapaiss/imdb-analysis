@@ -61,6 +61,19 @@ A streaming-app inspired dashboard with real posters — light by default, with 
 
 **Tech:** Vanilla JS · Chart.js · data embedded as JSON — zero build step, zero backend. Posters are loaded from IMDb's image CDN, so an internet connection is needed to see them.
 
+### Screenshots
+
+| Insights | All titles |
+|:---:|:---:|
+| ![Insights view: correlations and best-rated genres](images/insights.png) | ![All titles: searchable, sortable table with posters](images/titles.png) |
+| **Filtering — Crime · 1990s** | **Dark theme** |
+| ![Genre dropdown open with Crime and 1990s selected](images/filters.png) | ![Home view in the dark theme](images/dark.png) |
+
+<p align="center">
+  <img src="images/mobile.png" alt="Home view on a phone" width="300"><br>
+  <sub>Responsive layout on a phone</sub>
+</p>
+
 To regenerate it after changing the data:
 
 ```
@@ -130,7 +143,8 @@ imdb-analysis/
 │   └── imdb_top_1000.csv
 │
 ├── images/
-│   ├── dashboard.png           — Dashboard screenshot
+│   ├── dashboard.png           — Dashboard screenshot (Home)
+│   ├── insights.png, titles.png, filters.png, dark.png, mobile.png — Gallery
 │   └── graficos.png            — Runtime vs. rating chart from the notebook
 │
 ├── notebooks/
